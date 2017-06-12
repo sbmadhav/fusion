@@ -17,7 +17,7 @@ const Card = (props) => {
           <h2 children={card.heading} />
           <Rating value={4} />
           <p>{card.text}</p>
-          <Button>Add to Cart</Button>
+          <Button theme={theme}>Add to Cart</Button>
         </div>
       )}
     </div>
@@ -32,7 +32,7 @@ Card.propTypes = {
   /**
   * Theme
   */
-  theme: PropTypes.oneOf(['light', 'dark'])
+  theme: PropTypes.oneOf(['light', 'dark', 'cerulean', 'zombie'])
 };
 
 Card.defaultProps = {

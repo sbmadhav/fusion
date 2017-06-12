@@ -26,7 +26,7 @@ Panel.propTypes = {
   /**
   * Theme
   */
-  theme: PropTypes.oneOf(['light', 'dark'])
+  theme: PropTypes.oneOf(['light', 'dark', 'cerulean', 'zombie'])
 };
 
 export default Panel;

@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import classnames from 'classnames';
 import './Button.css';
 
 
@@ -8,7 +9,7 @@ const Button = (props) => {
     <button
       type="button"
       onClick={props.onClick}
-      className="primary"
+      className={classnames('primary', `acss-theme-${props.theme}`, 'acss-button')}
     >
       {props.children}
     </button>

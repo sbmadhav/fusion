@@ -20,6 +20,40 @@ const Navigation = (props) => {
           </li>
         )}
       </ul>
+      <ul>
+        <li>
+          <a
+              href='/'
+              className={classnames('nav-links', `acss-theme-${theme}`)}
+          >
+          light
+          </a>
+        </li>
+        <li>
+          <a
+              href='/dark'
+              className={classnames('nav-links', `acss-theme-${theme}`)}
+          >
+          dark
+          </a>
+        </li>
+        <li>
+          <a
+              href='/cerulean'
+              className={classnames('nav-links', `acss-theme-${theme}`)}
+          >
+          cerulean
+          </a>
+        </li>
+        <li>
+          <a
+              href='/zombie'
+              className={classnames('nav-links', `acss-theme-${theme}`)}
+          >
+          zombie
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
@@ -28,7 +62,7 @@ Navigation.propTypes = {
   /**
   * Theme
   */
-  theme: PropTypes.oneOf(['light', 'dark']),
+  theme: PropTypes.oneOf(['light', 'dark', 'cerulean', 'zombie']),
   /**
    * Links
   */

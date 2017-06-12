@@ -4,15 +4,24 @@
   display: flex;
 }
 
-.navigation ul {
+.navigation ul:first-child {
   display: flex;
   align-items: center;
 }
 
-.navigation ul li {
+.navigation ul:first-child li {
   margin: 0 10px;
 }
+.navigation ul:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+    padding: 12px 10px 0 0;
+}
 
+.navigation ul:last-child li {
+  margin: 0 10px;
+}
 .navigation.align-right {
   justify-content: flex-end;
 }

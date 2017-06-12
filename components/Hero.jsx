@@ -60,7 +60,7 @@ Hero.propTypes = {
   /**
   * Theme
   */
-  theme: PropTypes.oneOf(['light', 'dark']),
+  theme: PropTypes.oneOf(['light', 'dark', 'cerulean', 'zombie']),
   /**
   * Heading
   */
