@@ -28,7 +28,7 @@ const Navigation = (props) => {
           >
           light
           </a>
-        </li>
+        </li> 
         <li>
           <a
               href='/dark'
