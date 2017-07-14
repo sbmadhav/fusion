@@ -7,8 +7,8 @@ const Avatar = ({ ...props }) => {
   return (
     <img
       className="avatar"
-      src={props.picUrl}
-      alt={props.altTag}
+      src={props.src}
+      alt={props.alt}
       width={props.width}
       height={props.height}
     />
@@ -19,15 +19,19 @@ Avatar.propTypes = {
   /**
    * Picture URL
   */
-  picUrl: PropTypes.string,
+  src: PropTypes.string,
   /**
    * Alt Tag
   */
-  altTag: PropTypes.string,
+  alt: PropTypes.string,
   /**
-   * Image Size
+   * Image height
   */
-  size: PropTypes.number
+  height: PropTypes.number,
+  /**
+   * Image Widhth
+   */
+  width: PropTypes.number
 };
 
 export default Avatar;

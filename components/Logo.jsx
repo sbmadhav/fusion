@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import config from '../data/config.json';
 
 import './Logo.css';
 
@@ -39,8 +38,6 @@ Logo.propTypes = {
 };
 
 Logo.defaultProps = {
-  src: config.defaultLogo,
-  alt: config.brandName,
   url: '/',
   imgWidth: 100
 };
