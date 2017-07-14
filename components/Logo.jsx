@@ -38,6 +38,8 @@ Logo.propTypes = {
 };
 
 Logo.defaultProps = {
+  src: "https://facebook.github.io/react/img/logo.svg",
+  alt: "Fusion",
   url: '/',
   imgWidth: 100
 };
